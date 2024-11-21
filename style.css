@@ -1,0 +1,140 @@
+@keyframes light{
+    from{
+        background-color:red ;
+    }
+    to{
+        background-color:#A01F0A;
+    }
+}
+@keyframes light2{
+    0%{
+        background-color: red;
+    }
+    25%{
+        background-color: brown;
+    }
+    50%{
+        background-color: blue;
+    }
+    100%{
+        background-color: green;
+    }
+}
+
+.all-aria{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   
+}
+.headlight{
+    height: 50px;
+    width: 40px;
+    background-color: black;
+    border-radius: 20px 20px 0px 0px ;
+    position: relative;
+    top: 100px;
+    left: 20px;
+    animation: light2 1s ease  infinite ;
+}
+.box-1{
+    height:150px;
+    width: 400px;
+    background-color:#FE0000;
+    border-radius: 800px 800px 0px 0px ;
+    margin-top: 100px;
+    position: relative;
+    left: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tav1{
+    height:100px;
+    width: 350px;  
+    background-color: #38717E;
+    border-radius: 550px 550px 0px 0px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.tav-2{
+    height: 100px;
+    width: 20px;
+    background-color: red;
+    position: relative;
+    left: 50px;
+}
+.box-2{
+    height:200px ;
+    width: 700px;
+    background-color: red;
+    border-radius: 400px 200px 0px 20px ;
+    position: absolute;
+    top: 250px;
+    animation-name: light;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+.light-1{
+    height: 60px;
+    width: 60px;
+    background-color:#FFAD40 ;
+    border-radius: 0px 0px 0px 40px;
+    transform: rotate(92deg);
+    position: relative;
+    top: 90px;
+    left: 5px;
+   
+    
+}
+.light-2{
+    height: 50px;
+    width: 50px;
+    background-color: #FFAD40;
+    border-radius: 15px;
+    position: relative;
+    left: 650px;
+}
+.chka-m{
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+    position: relative;
+    z-index: 5;
+    
+}
+.chaka{
+    height: 200px;
+    width: 200px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+    left: 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.chak-1{
+    height: 120px;
+    width: 120px;
+    background-color:#E7E7E7;
+    border-radius: 50%;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+}
+.chaka-2{
+    height: 70px;
+    width: 70px;
+    background-color:#B3B3B3 ;
+    border-radius: 50%;  
+}
